@@ -12,13 +12,71 @@ body {
 }
 
 main {
-  margin: 0 10vw;
+  margin: 0 15vw;
+  padding-top: 5rem;
 }
 
 h1 {
-  font-size: 3.8em;
+  font-size: 4.5em;
+}
+
+h2 {
+  font-size: 3.0em;
+}
+
+h3 {
+  font-size: 2.0em;
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 2.3em;
+}
+
+li {
+  font-size: 1.5em;
+}
+
+/* Nav Bar Elements */
+
+header {
+  background: linear-gradient(180deg, var(--main-bg-color) 4rem, rgba(14, 18, 18, 0));
+  opacity: 1;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem 1rem 5rem;
+  top: 0;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-logo {
+  background-color: var(--accent-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5em;
+  width: 30px;
+  height: 30px;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  margin: 0 1em;
+}
+
+.nav-link > a {
+  text-decoration: none;
+  color: var(--text-color);
 }
