@@ -10,3 +10,15 @@ body {
   background-color: var(--main-bg-color);
   color: var(--text-color);
 }
+
+main {
+  margin: 0 10vw;
+}
+
+h1 {
+  font-size: 3.8em;
+}
+
+p {
+  font-size: 1.3em;
+}
