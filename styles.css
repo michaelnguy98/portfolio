@@ -42,7 +42,7 @@ li {
   font-size: 1.5em;
 }
 
-/* Nav Bar Elements */
+/* Nav Bar Styles */
 
 header {
   background: linear-gradient(180deg, var(--main-bg-color) 4rem, rgba(14, 18, 18, 0));
@@ -85,4 +85,17 @@ nav > ul {
 .nav-link > a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+/* Project Section Styles */
+
+#project-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(30vh, 1fr));
+}
+
+#project-grid > article {
+  background-color: var(--accent-2);
+  height: 20vh;
 }
