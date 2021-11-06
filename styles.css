@@ -49,6 +49,11 @@ li {
   font-size: 1.5em;
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 /* Nav Bar Styles */
 
 header {
@@ -116,9 +121,26 @@ nav > ul {
   grid-template-columns: repeat(auto-fit, minmax(30vh, 1fr));
 }
 
-#project-grid > article {
+#project-grid article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   background-color: var(--accent-2);
+  background-size: cover;
   height: 20vh;
+}
+
+#projects a:nth-child(1) article {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/portfolio-site.png);
+}
+
+#projects a:nth-child(2) article {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/uw-karate-site.png);
+}
+
+#projects a:nth-child(3) article {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/neural-net-site.png);
 }
 
 /* About Section Styles */
