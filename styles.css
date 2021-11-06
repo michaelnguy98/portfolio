@@ -92,6 +92,22 @@ nav > ul {
   color: var(--text-color);
 }
 
+/* Intro Section Styles */
+
+#intro {
+  margin-top: 5em;
+}
+
+#intro > div {
+  text-align: center;
+}
+
+#intro > div > img {
+  width: min(50vw, 400px);
+  height: 100%;
+  border-radius: 50%;
+}
+
 /* Project Section Styles */
 
 #project-grid {
