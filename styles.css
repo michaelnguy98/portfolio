@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  margin: 0 15vw;
+  margin: 0 20vw;
   padding-top: 5rem;
 }
 
@@ -107,21 +107,42 @@ nav > ul {
 
 /* About Section Styles */
 
-.about-grid {
+#skills-grid, #experience-grid, #hobbies-grid {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   margin-bottom: 2rem;
 }
 
-.about-grid > li {
+#skills-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#experience-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#hobbies-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#skills-grid > li, #hobbies-grid > li , .experience-item > p {
   font-size: 1rem;
+}
+
+.experience-item > p {
+  margin: 0 0 0.5rem;
+}
+
+.hobby-emoji {
+  font-size: 2rem;
+  margin-left: 0.5rem;
 }
 
 /* Footer Styles */
 
 footer {
-  margin: 7.5vh 15vw 10vh;
+  margin: 7.5vh 20vw 10vh;
 }
 
 footer > ul {
