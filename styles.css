@@ -11,10 +11,14 @@ body {
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 1.5rem;
+}
+
+main, footer {
+  margin: 0 15vw;
 }
 
 main {
-  margin: 0 20vw;
   padding-top: 5rem;
 }
 
@@ -23,30 +27,25 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3.0rem;
 }
 
 h2 {
-  font-size: 2.0em;
+  font-size: 2.0rem;
   margin-top: 10vh;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 p {
-  font-size: 1.3em;
   margin-bottom: 2em;
 }
 
 ul {
   padding: 0;
   list-style-type: none;
-}
-
-li {
-  font-size: 1.5em;
 }
 
 a {
@@ -90,11 +89,6 @@ nav > ul {
 
 .nav-link {
   margin: 0 1em;
-}
-
-.nav-link > a {
-  text-decoration: none;
-  color: var(--text-color);
 }
 
 /* Intro Section Styles */
@@ -164,9 +158,9 @@ nav > ul {
   grid-template-columns: repeat(4, 1fr);
 }
 
-#skills-grid > li, #hobbies-grid > li , .experience-item > p {
+/* #skills-grid > li, #hobbies-grid > li , .experience-item > p {
   font-size: 1rem;
-}
+} */
 
 .experience-item > p {
   margin: 0 0 0.5rem;
@@ -180,7 +174,8 @@ nav > ul {
 /* Footer Styles */
 
 footer {
-  margin: 7.5vh 20vw 10vh;
+  margin-top: 7.5vh;
+  margin-bottom: 10vh;
 }
 
 footer > ul {
@@ -192,9 +187,4 @@ footer > ul {
 
 footer > ul > li {
   margin-right: 3vw;
-}
-
-footer > ul > li > a {
-  text-decoration: none;
-  color: var(--text-color);
 }
