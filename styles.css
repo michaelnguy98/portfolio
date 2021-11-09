@@ -53,6 +53,15 @@ a {
   color: var(--text-color);
 }
 
+li > a {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 100ms ease;
+}
+
+li > a:hover {
+  border-bottom-color: var(--accent-2);
+}
+
 /* Nav Bar Styles */
 
 header {
