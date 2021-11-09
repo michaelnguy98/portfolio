@@ -1,9 +1,9 @@
 :root {
-  --main-bg-color: #333333;
-  --text-color: #F8F8FF;
-  --accent-1: #7ED4E6;
+  --main-bg-color: #1B1811;
+  --text-color: #FFF8F0;
+  --accent-1: #841C26;;
   --accent-2: #F56960;
-  --accent-3: #841C26;
+  --accent-3: #FFFD77;
 }
 
 body {
@@ -85,7 +85,7 @@ nav > ul {
 }
 
 .site-logo {
-  background-color: var(--accent-3);
+  background-color: var(--accent-1);
   display: flex;
   justify-content: center;
   align-items: center;
