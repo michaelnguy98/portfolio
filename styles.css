@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: #1B1811;
   --text-color: #FFF8F0;
+  --sub-text-color: #8B8589;
   --accent-1: #841C26;;
   --accent-2: #F56960;
   --accent-3: #FFFD77;
@@ -8,10 +9,14 @@
 
 body {
   background-color: var(--main-bg-color);
-  color: var(--text-color);
+  color: var(--sub-text-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
+}
+
+header, footer, h1, h2, h3 {
+  color: var(--text-color);
 }
 
 main, footer {
@@ -41,6 +46,7 @@ h3 {
 
 p {
   margin-bottom: 2em;
+  color: var(--sub-text-color);
 }
 
 ul {
@@ -55,12 +61,28 @@ a {
 
 li > a {
   border-bottom: 2px solid transparent;
-  transition: border-bottom-color 100ms ease;
+  transition: border-bottom-color 100ms linear;
 }
+
 
 li > a:hover {
   border-bottom-color: var(--accent-2);
 }
+
+/*
+li > a {
+  overflow: hidden;
+}
+
+li > a::after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+
+li > a:hover::after,
+li > a:focus::after{
+  transform: translate3d(0, 0, 0);
+} */
 
 /* Nav Bar Styles */
 
@@ -151,6 +173,10 @@ nav > ul {
 
 #projects a:nth-child(3) article {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/neural-net-site.png);
+}
+
+#project-grid article p {
+  color: var(--text-color);
 }
 
 /* About Section Styles */
