@@ -4,7 +4,6 @@
   --sub-text-color: #8B8589;
   --accent-1: #841C26;;
   --accent-2: #F56960;
-  --accent-3: #FFFD77;
 }
 
 body {
@@ -67,6 +66,10 @@ li > a {
 
 li > a:hover {
   border-bottom-color: var(--accent-2);
+}
+
+.highlight {
+  color: var(--accent-2);
 }
 
 /*
