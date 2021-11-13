@@ -58,34 +58,26 @@ a {
   color: var(--text-color);
 }
 
+
+
 li > a {
-  border-bottom: 2px solid transparent;
-  transition: border-bottom-color 100ms linear;
+  text-decoration: none;
+  background-image: linear-gradient(var(--accent-2), var(--accent-2));
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
 }
 
-
-li > a:hover {
-  border-bottom-color: var(--accent-2);
+li > a:hover, li > a:focus, li > a:active {
+  background-size: 100% 0.1em;
+  background-position-x: 0%;
 }
 
 .highlight {
   color: var(--accent-2);
 }
-
-/*
-li > a {
-  overflow: hidden;
-}
-
-li > a::after {
-  opacity: 1;
-  transform: translate3d(-100%, 0, 0);
-}
-
-li > a:hover::after,
-li > a:focus::after{
-  transform: translate3d(0, 0, 0);
-} */
 
 /* Nav Bar Styles */
 
