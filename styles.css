@@ -160,6 +160,7 @@ nav > ul {
   background-position: center;
   background-size: cover;
   height: 275px;
+  border-radius: 8px;
   transition-duration: .4s;
 }
 
