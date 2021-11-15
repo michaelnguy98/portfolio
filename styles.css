@@ -58,8 +58,6 @@ a {
   color: var(--text-color);
 }
 
-
-
 li > a {
   text-decoration: none;
   background-image: linear-gradient(var(--accent-2), var(--accent-2));
@@ -170,6 +168,15 @@ nav > ul {
   z-index: 10;
 }
 
+#project-grid article h3 {
+  font-size: 2.5rem;
+}
+
+#project-grid article p {
+  color: var(--text-color);
+  font-size: 1.0rem;
+}
+
 #projects a:nth-child(1) article {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/portfolio-background.png);
 }
@@ -180,10 +187,6 @@ nav > ul {
 
 #projects a:nth-child(3) article {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/neural-net-background.png);
-}
-
-#project-grid article p {
-  color: var(--text-color);
 }
 
 /* About Section Styles */
