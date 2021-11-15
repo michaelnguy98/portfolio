@@ -2,7 +2,7 @@
   --main-bg-color: #1B1811;
   --text-color: #FFF8F0;
   --sub-text-color: #8B8589;
-  --accent-1: #841C26;;
+  --accent-1: #841C26;
   --accent-2: #F56960;
 }
 
@@ -88,10 +88,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 10rem;
+  height: 5rem;
   width: 100%;
   box-sizing: border-box;
-  padding: 1rem 1rem 5rem;
+  padding: 1rem 1rem 0;
   top: 0;
 }
 
@@ -171,15 +171,15 @@ nav > ul {
 }
 
 #projects a:nth-child(1) article {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/portfolio-site.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/portfolio-background.png);
 }
 
 #projects a:nth-child(2) article {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/uw-karate-site.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/ska-background.png);
 }
 
 #projects a:nth-child(3) article {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/neural-net-site.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/neural-net-background.png);
 }
 
 #project-grid article p {
