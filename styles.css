@@ -170,7 +170,6 @@ nav > ul {
 #project-grid article:hover {
   transform: scale(1.1);
   transition-duration: .4s;
-  /* z-index: 10; */
 }
 
 #project-grid article h3 {
@@ -215,10 +214,6 @@ nav > ul {
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* #skills-grid > li, #hobbies-grid > li , .experience-item > p {
-  font-size: 1rem;
-} */
-
 .experience-item > p {
   margin: 0 0 0.5rem;
 }
@@ -226,6 +221,16 @@ nav > ul {
 .hobby-emoji {
   font-size: 2rem;
   margin-left: 0.5rem;
+}
+
+/* Contact Section Styles */
+
+#contact a {
+  transition: color 0.2s ease-in-out;
+}
+
+#contact a:hover {
+  color: var(--accent-1);
 }
 
 /* Footer Styles */
