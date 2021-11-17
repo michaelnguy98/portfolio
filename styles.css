@@ -226,6 +226,7 @@ nav > ul {
 /* Contact Section Styles */
 
 #contact a {
+  font-size: 2rem;
   transition: color 0.2s ease-in-out;
 }
 
