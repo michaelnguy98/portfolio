@@ -80,6 +80,13 @@ li > a:hover, li > a:focus, li > a:active {
   color: var(--accent-1);
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
 /* Nav Bar Styles */
 
 header {
