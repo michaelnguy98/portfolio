@@ -268,3 +268,23 @@ footer > ul > li {
   margin: 1vh 3vw;
   font-size: 2rem;
 }
+
+
+/* Small screens */
+@media only screen and (max-width: 375px) {
+  main {
+    padding: 0 5vw;
+  }
+
+  #contact p:last-child {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding: 0 5vw;
+  }
+
+  footer > ul > li {
+    font-size: 1.5rem;
+  }
+}
