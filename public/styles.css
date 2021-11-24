@@ -206,23 +206,15 @@ nav > ul {
 
 /* About Section Styles */
 
-#skills-grid, #experience-grid, #hobbies-grid {
+.about-grid {
   display: grid;
   gap: 2rem;
   margin-bottom: 2rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 #skills-grid {
-  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-}
-
-#experience-grid {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-#hobbies-grid {
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .experience-item > p {
