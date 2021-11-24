@@ -264,6 +264,11 @@ footer > ul > li {
     padding: 0 5vw;
   }
 
+  /* Project Section Styles */
+  #project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
   /* About Section Styles */
   #skills-grid {
     grid-template-columns: repeat(2, 1fr);
