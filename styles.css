@@ -6,7 +6,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
   margin: 0;
 }
 
@@ -23,14 +22,10 @@ header, footer, h1, h2, h3 {
   color: var(--text-color);
 }
 
-main, footer {
+main {
   margin: 0;
-  padding: 0 10vw;
+  padding: 0 15vw;
 }
-
-/* main {
-  padding-top: 5rem;
-} */
 
 h1, h2, h3 {
   font-weight: 500;
@@ -232,6 +227,7 @@ nav > ul {
 #contact p:last-child {
   font-size: 2rem;
   text-align: center;
+  margin: auto 0;
 }
 
 #contact a {
@@ -242,15 +238,11 @@ nav > ul {
   color: var(--accent-1);
 }
 
-/* #contact p {
-
-} */
-
 /* Footer Styles */
 
 footer {
-  margin-top: 7.5vh;
-  margin-bottom: 10vh;
+  margin: 7.5vh 0 10vh;
+  padding: 0 20vw;
 }
 
 footer > ul {
@@ -261,6 +253,6 @@ footer > ul {
 }
 
 footer > ul > li {
-  margin-right: 3vw;
+  margin: 1vh 3vw;
   font-size: 2rem;
 }
