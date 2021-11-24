@@ -213,10 +213,6 @@ nav > ul {
   grid-template-columns: repeat(3, 1fr);
 }
 
-#skills-grid {
-  grid-template-rows: repeat(2, 1fr);
-}
-
 .experience-item > p {
   margin: 0 0 0.5rem;
 }
@@ -268,10 +264,21 @@ footer > ul > li {
     padding: 0 5vw;
   }
 
+  /* About Section Styles */
+  #skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #experience-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* Contact Section Styles */
   #contact p:last-child {
     font-size: 1.5rem;
   }
 
+  /* Footer Styles */
   footer {
     padding: 0 5vw;
   }
