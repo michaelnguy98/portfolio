@@ -18,6 +18,18 @@ body {
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--main-bg-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--accent-1);
+}
+
 header, footer, h1, h2, h3 {
   color: var(--text-color);
 }
