@@ -229,8 +229,12 @@ nav > ul {
 
 /* Contact Section Styles */
 
-#contact a {
+#contact p:last-child {
   font-size: 2rem;
+  text-align: center;
+}
+
+#contact a {
   transition: color 0.2s ease-in-out;
 }
 
@@ -238,9 +242,9 @@ nav > ul {
   color: var(--accent-1);
 }
 
-#contact p {
+/* #contact p {
 
-}
+} */
 
 /* Footer Styles */
 
@@ -252,10 +256,11 @@ footer {
 footer > ul {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 footer > ul > li {
   margin-right: 3vw;
+  font-size: 2rem;
 }
