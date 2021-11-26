@@ -185,11 +185,13 @@ nav > ul {
 
 #project-grid article h3 {
   font-size: 2.5rem;
+  margin: 0;
 }
 
 #project-grid article p {
   color: var(--text-color);
   font-size: 1.0rem;
+  margin: 0;
 }
 
 #projects a:nth-child(1) article {
