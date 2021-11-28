@@ -123,4 +123,3 @@ dist
 # Firebase
 .firebase/
 .firebaserc
-.firebase.json
