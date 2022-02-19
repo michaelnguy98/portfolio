@@ -195,7 +195,7 @@ nav > ul {
 }
 
 #projects a:nth-child(1) article {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/portfolio-background.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/projects/react-trivia-background.png);
 }
 
 #projects a:nth-child(2) article {
